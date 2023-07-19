@@ -16,6 +16,10 @@ function App() {
     setListTodo([...newListTodo]);
   }
 
+  const updateListItem = (key) => {
+
+  }
+
 
   return (
     <div className="todo-app">

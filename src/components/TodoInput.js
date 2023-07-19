@@ -13,7 +13,7 @@ function TodoInput(props) {
                 <i className='fas fa-list-check' aria-hidden='true' />
                 <input type='text' className='input-box-todo' placeholder='Add your todo' value={inputTasks} onChange={e => {
                     setInputTasks(e.target.value);
-                    console.log(e.target.value);
+                    //console.log(e.target.value);
                 }} />
                 <button className='add-btn' onClick={() => {
                     props.addList(inputTasks);
